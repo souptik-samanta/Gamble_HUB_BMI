@@ -9,9 +9,7 @@
 - **BMI Calculator**: Calculate your BMI instantly based on height and weight inputs.
 - **Health Tips**: Provides useful tips to maintain a healthy lifestyle.
 - **Interactive UI/UX**: A sleek and responsive design with smooth transitions.
-- **Caddy Integration**: Runs behind a secure, reliable reverse proxy with HTTPS.
 - **Node.js Backend**: Powered by a robust and scalable backend.
-- **Future-Ready**: Built with scalability and modularity in mind for future enhancements.
 
 ---
 
