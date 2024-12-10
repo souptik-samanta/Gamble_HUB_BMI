@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soup BMi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gamble Hub</h1>
+    <p>Your one-stop destination for fitness and well-being!</p>
+  </header>
+  <main>
+    <section class="bmi-calculator">
+      <h2>BMI Calculator</h2>
+      <div class="form-group">
+        <input type="number" id="weight" placeholder="Weight (kg)" />
+        <input type="number" id="height" placeholder="Height (cm)" />
+        <button onclick="calculateBMI()">Calculate</button>
+      </div>
+      <p id="bmi-result"></p>
+      <p id="bmi-advice"></p>
+    </section>
+    <section class="health-tips">
+      <h2>Daily Health Tip</h2>
+      <p id="health-tip">Stay hydrated for a healthier life!</p>
+    </section>
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form method="POST" action="/submit-feedback">
+        <textarea name="feedback" placeholder="Leave your feedback here..." required></textarea>
+        <button type="submit">Send Feedback</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Souptik Samanta All Rights Reserved(/j).</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

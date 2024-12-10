@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+header:hover {
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+/* Sections */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+section:hover {
+  transform: scale(1.05);
+}
+
+input, textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background: #43cea2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background: #185a9d;
+  transform: scale(1.1);
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  input, textarea {
+    width: 100%;
+  }
+
+  section {
+    padding: 10px;
+  }
+}
